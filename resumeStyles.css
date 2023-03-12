@@ -1,0 +1,177 @@
+*{-webkit-font-smoothing:antialiased;}
+
+body {
+    background-color: #cdbfcf;
+}
+
+h1 {
+    font-family: 'Sacramento', cursive;
+    font-size: 3.5rem;
+    color: #5a2183;
+}
+
+p {
+    padding-bottom: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navigationBar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding-top: 33px;
+    padding-bottom: 23px;
+    background-color: #cdbfcf;
+    width: 100%;
+    z-index: 10;
+}
+
+.top-container {
+    padding-bottom: 25px;
+    width:1200px;
+    background-color: #fbf7ec;
+    border-radius: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 98px;
+}
+
+#myPhotoBorder {
+    position: absolute;
+    z-index: 2;
+    left: 160px;
+    top: 150px;
+}
+
+#myPhoto {
+    position: absolute;
+    left: 200px;
+    top: 190px;
+    z-index: 1;
+}
+
+#filler {
+    color: #fbf7ec;
+}
+
+.background-container {
+    margin-top: 30px;
+    display:flex;
+    flex-direction: row;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2 {
+    margin-top: 0;
+    margin-bottom: 40px;
+    font-family: "Josefin Sans";
+    font-size: 2rem;
+    text-shadow: #cdbfcf 4px 0 5px;
+}
+
+#aboutMe {
+    line-height: 2.5;
+}
+
+.background-container div {
+    
+    background-color: #fbf7ec;
+    width: 580px;
+    border-radius: 30px;
+    padding: 25px;
+    text-align: justify;
+    padding: 40px;
+}
+
+.info {
+    font-weight:900;
+}
+
+ul{
+    list-style-type: none;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+}
+i{
+    margin:15px;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+.middle2-container {
+    box-sizing: border-box;
+    width: 1200px;
+    background-color: #fbf7ec;
+    border-radius: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    padding-bottom: 40px;
+}
+
+#skills {
+    margin: 40px;
+    padding-top: 40px;
+}
+
+.column {
+    width: 220px;;
+}
+
+progress {
+    margin-left: 100px;
+}
+
+progress {
+    border: none;
+    width: 150px;
+    height: 10px;
+    background: black;
+}
+  
+progress::-webkit-progress-value {
+background: #5a2183;
+}
+  
+progress::-webkit-progress-bar {
+background: rgb(167, 166, 166);
+}
+
+table {
+    margin-left: 50px;
+}
+
+.technologies {
+    margin-bottom: 0;
+    margin-top: 0;
+    margin-right: 100px;
+}
+
+h3 {
+    font-family: merriweather;
+}
+
+#education p {
+    margin: 0;
+}
+
+button {
+    background: none;
+    font-family: "Josefin Sans";
+    color: white;
+    border-style: none;
+    margin-left: 30px;
+    font-size: 30px;
+}
+
+button:hover {
+    cursor: pointer;
+    text-shadow: white 4px 0 5px;
+    color:rgba(0, 0, 0, 0.679);
+}
+
+
+
+
